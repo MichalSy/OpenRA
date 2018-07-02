@@ -1,5 +1,5 @@
 Metadata:
-	Title: Red Alert
+	Title: Fantasy Mod
 	Version: {DEV_VERSION}
 	Website: https://www.openra.net
 	WebIcon32: https://www.openra.net/images/icons/ra_32x32.png
@@ -13,6 +13,7 @@ Packages:
 	~^Content/ra/v2/movies
 	.
 	$ra: ra
+	$fantasy: fantasy
 	./mods/common: common
 	~main.mix
 	~conquer.mix
@@ -96,7 +97,7 @@ ChromeLayout:
 	common|chrome/ingame-perf.yaml
 	common|chrome/ingame-debug.yaml
 	common|chrome/ingame-infochat.yaml
-	common|chrome/mainmenu.yaml
+	fantasy|chrome/mainmenu.yaml
 	common|chrome/settings.yaml
 	common|chrome/credits.yaml
 	common|chrome/lobby.yaml
