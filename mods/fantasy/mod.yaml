@@ -80,6 +80,7 @@ Chrome:
 Assemblies:
 	common|OpenRA.Mods.Common.dll
 	common|OpenRA.Mods.Cnc.dll
+	fantasy|OpenRA.Mods.Fantasy.dll
 
 ChromeLayout:
 	common|chrome/ingame.yaml
@@ -195,14 +196,14 @@ Missions:
 	ra|missions.yaml
 
 MapGrid:
-	TileSize: 24,24
+	TileSize: 32,32
 	Type: Rectangular
 
 SupportsMapsFrom: ra
 
 SoundFormats: Aud, Wav
 
-SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS
+SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS, ImageSprite
 
 SpriteSequenceFormat: TilesetSpecificSpriteSequence
 	TilesetExtensions:
